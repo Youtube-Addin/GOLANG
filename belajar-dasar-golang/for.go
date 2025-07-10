@@ -10,6 +10,7 @@ func main() {
 	//	counter++
 	//}
 
+	// for dengan statement
 	for counter := 1; counter <= 10; counter++ {
 		fmt.Println("Perulangan ke ", counter)
 	}
@@ -21,6 +22,7 @@ func main() {
 		fmt.Println(names[i])
 	}
 
+	// for range bisa untuk tipe data collection apapun mau itu array, map, slice, dll
 	for index, name := range names {
 		fmt.Println("Index", index, "=", name)
 	}
