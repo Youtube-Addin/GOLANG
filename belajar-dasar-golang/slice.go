@@ -8,7 +8,7 @@ func main(){
 	slice1 := names[1:3]
 	fmt.Println(slice1)
 
-	slice2 := names[:3]
+	slice2 := names[:3] 	
 	fmt.Println(slice2)
 
 	slice3 := names[2:]
